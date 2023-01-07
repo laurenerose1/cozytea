@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Cozy Tea</h1>
+        <p>
+            Hand-picked, Artisanally Curated, Free Range, Sustainable, <br> Small Batch, Fair Trade, Organic Tea
+        </p>
+        <a href="" class="hero-btn">Click Here To Learn More!</a>
+      </div>
+    </section>
+    <!--Tea Selection Section-->
+    <section class="teas">
+      <h1>Food & Beverage Options </h1>
+      <p> Whats steeping at The Tea cozy 🫖</p>
+      <div class="row">
+        <div class="teas-col">
+          <h3>Rotating Tea Selections</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          </div>
+        <div class="teas-col">
+            <h3>Coffee</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+      <div class="teas-col">
+        <h3>Sweet treats</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </div>
+    </section>
+
+
+
+    <!---teas section-->
+    <section class="ontap">
+      <h1>Rotating Teas</h1>
+      <p>We rotate our teas on a monthly basis. Below is what we are currently brewing</p>
+      <div class="row">
+        <div class="ontap-col">
+          <img src="images/berryblitz.jpeg">
+          <h3> Berry Blitz</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="ontap-col">
+          <img src="images/img-bedford-bizarre.webp">
+          <h3> Bedford Bizzarre</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="ontap-col">
+          <img src="images/spicedrum.jpeg">
+          <h3> Spiced Rum</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="ontap-col">
+            <img src="images/myrtle.jpeg">
+            <h3> Myrtle Avenue </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+      </div>
+
+    </section>
+
+
+<!--Location section of page -->
+<section class="locations">
+    <h1>Where you can find us </h1>
+    <p>Check out any of our 3 locations across Reno / Tahoe!</p>
+    <div class="row">
+      <div class="locations-col">
+        <img src="images/location1.jpg">
+        <div class="layer">
+          <h3>South Lake Tahoe</h3>
+        </div>
+        </div>
+        <div class="locations-col">
+          <img src="images/location2.jpg">
+          <div class="layer">
+            <h3>Reno</h3>
+          </div>
+          </div>
+          <div class="locations-col">
+            <img src="images/location3.jpg">
+            <div class="layer">
+              <h3>Carson City</h3>
+            </div>
+            </div>
+    </div>
+  </section>
+
+
+<!--testimonials-->
+<section class="testimonials">
+  <h1>What Our Customers Are Saying</h1>
+  <div class="row">
+    <div class="testimonial-col">
+      <img src="images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg">
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A mollitia excepturi, magnam illum labore sint ad aperiam numquam dolorum, fuga maiores facilis fugi</p>
+        <h3>Athena F.</h3>
+       
+
+      </div>
+    </div>
+    <div class="testimonial-col">
+      <img src="images/jurica-koletic-7YVZYZeITc8-unsplash.jpg">
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A mollitia excepturi, magnam illum labore sint ad aperiam numquam dolorum, fuga maiores facilis fugi</p>
+        <h3>Aaron M.</h3>
+     
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Call to Action-->
+<section class="cta">
+  <h1>Learn more about how we curate our tea selection!</h1>
+  <a href="" class="hero-btn">Schedule A Call!</a>
+</section>
+
+<!--Footer-->
+<section class="footer">
+  <h4>Store Hours</h4>
+  <p> 7:00am PST - 5pm PST Sunday - Friday</p>
+  <h4>Phone Number</h4>
+  <p>555-555-5555</p>
+</section>
+
+
+    <!--Javascript for the Toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
